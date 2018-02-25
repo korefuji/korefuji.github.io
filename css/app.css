@@ -61,16 +61,8 @@ h1 {
 
 .card .frontcard {
     visibility: visible;
-    box-sizing: border-box;
-    color: #fff;
-    font-weight: bold;
-    height: 100%;
-    left: 0;
-    padding-top: 40%;
     position: absolute;
     text-align: center;
-    top: 0;
-    width: 100%;
 }
 
 .card .backcard {
