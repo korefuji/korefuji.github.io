@@ -2,12 +2,12 @@
 
 
 //add cards to an array
-let array = [".frontcard",".backcard"];
+let array = ['.frontcard','.backcard'];
 array = shuffle(array);
 
 const cardField = document.getElementById('cardholder');
 
-cardField.addEventListener("click",function(e){cardClick(e)});
+cardField.addEventListener('click',function(e){cardClick(e)});
 
 
 function cardClick(e) {
@@ -18,7 +18,7 @@ function cardClick(e) {
 }
 
 
-// Shuffle function from http://stackoverflow.com/a/2450976
+//break function from http://stackoverflow.com/a/2450976
 function shuffle(array) {
     let currentIndex = array.length,
         temporaryValue, randomIndex;

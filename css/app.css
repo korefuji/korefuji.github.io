@@ -54,6 +54,7 @@ h1 {
     float: left;
     height: 150px;
     position: relative;
+    padding: 0 0 0 20px;
     transform-style: preserve-3d;
     transition: transform 1s;
     width: 150px;
