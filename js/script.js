@@ -18,46 +18,6 @@ function cardClick(e) {
 }
 
 
-
-/*
-
-let restart = document.getElementById("restart");
-restart.addEventListener("click", newGame);
-//create card elements
-for (let i = 0; i < deck.length; i++) {
-    const rows = document.createElement("li");
-    let j = 0;
-    while (j < deck.length) {
-        const cells = document.createElement("i");
-        j++;
-
-
-        rows.appendChild(cells);
-    }
-    table.appendChild(rows);
-}
-
-table.addEventListener("click", clickCard);
-
-function newGame() {
-    console.log("restart test");
-}
-
-function clickCard () {
-    let targetElement = event.target.parentElement;
-    console.log(targetElement);
-    console.log(targetElement.nodeName);
-    if (targetElement.nodeName == "LI") {
-        targetElement.classList.toggle("visible");
-        console.log("toggle");
-    }
-    else {
-        (targetElement.nodeName == "I")
-
-            targetElement.parentElement.classList.toggle("visible");
-    }
-}
-*/
 // Shuffle function from http://stackoverflow.com/a/2450976
 function shuffle(array) {
     let currentIndex = array.length,
