@@ -62,15 +62,11 @@ h1 {
 .card .frontcard {
     visibility: visible;
     position: absolute;
-    text-align: center;
 }
 
 .card .backcard {
     visibility: hidden;
     position: absolute;
-    -webkit-transform: rotateY( 180deg );
-    transform: rotateY( 180deg );
-
 }
 
 .card.visible .backcard {
@@ -79,8 +75,6 @@ h1 {
 }
 
 .card.visible .frontcard{
-    -webkit-transform: rotateY( 180deg );
-    transform: rotateY( 180deg );
     position: absolute;
     visibility: hidden;
 }
